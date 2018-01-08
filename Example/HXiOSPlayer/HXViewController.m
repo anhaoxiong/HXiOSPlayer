@@ -7,6 +7,7 @@
 //
 
 #import "HXViewController.h"
+#import <HXiOSPlayer/HXMediaPlayer.h>
 
 @interface HXViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    HXMediaPlayer *player = [[HXMediaPlayer alloc] init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
