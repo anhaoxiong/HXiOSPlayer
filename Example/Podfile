@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXiOSPlayer_Example' do
+  pod 'HXiOSPlayer', :path => '../'
+
+  target 'HXiOSPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
